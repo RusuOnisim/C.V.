@@ -6,6 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: Garamond, sans-serif;
+  font-size: 16px;
 }
 
 .parent {
@@ -53,7 +54,7 @@ body {
   padding-bottom: 4%;
   padding-left: 10%;
   color: rgba(0, 0, 0, 0.7);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .pep {
   padding-bottom: 2%;
@@ -65,20 +66,20 @@ body {
   padding-bottom: 8%;
   padding-top: 8%;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 1);
 
 }
 .bio {
   padding-left: 4%;
   color: rgba(0, 0, 0, 0.7);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .qual {
   padding-bottom: 2%;
   padding-left: 10%;
   color: rgba(0, 0, 0, 0.7);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .name {
   font-size: 1.25rem;
@@ -88,7 +89,9 @@ body {
   .parent {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
+    
   }
+ 
 
   .s1 {
     grid-area: auto;
@@ -98,8 +101,9 @@ body {
     padding-bottom: 5%;
     font-size: 1.125rem;
     line-height: 1.5;
-    display: flex;
-    align-items: flex-start;
+    display: block;
+    align-items: initial;
+   
   }
 
   .s2 {
@@ -136,8 +140,8 @@ body {
     padding-top: 5%;
     font-size: 25px;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    color: rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 7);
     text-align: left;
   }
 }
